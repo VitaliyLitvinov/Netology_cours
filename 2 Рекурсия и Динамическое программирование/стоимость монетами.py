@@ -6,6 +6,10 @@ def can(sum):
     монетами номаналом 5 и 3
     :param sum: int
     :return: bool
+    
+    Time: O(n)
+    Memory: O(n)
+
     """
     if memory[sum-1]:
         return memory[sum]
